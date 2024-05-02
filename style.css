@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("path/to/background-image.jpg"); /* Replace with your background image */
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  #weather-container {
+    background-color: #f0f0f0; /* Default background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: background-color 0.5s ease; /* Smooth color transition */
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  #location,
+  #user-location {
+    margin-bottom: 15px;
+  }
+  
+  #location {
+    font-weight: bold;
+  }
+  
+  #user-location {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #get-weather {
+    background-color: #3498db; /* Blue button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Button hover effect */
+  }
+  
+  #get-weather:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+  #weather-image {
+    width: 128px;
+    height: 128px;
+    margin: 20px auto;
+    border-radius: 50%; /* Circular weather image */
+  }
+  
